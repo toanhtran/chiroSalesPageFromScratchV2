@@ -124,6 +124,23 @@ body {
   border-radius: 5px;
 }
 
+
+.elInput:invalid:focus {
+    border-color: #B91517;
+    border-size: 5px;
+    border-color: rgb(185, 21, 23);
+    border-width: 3px;
+}
+
+.elInput:valid {
+  border-color: rgb(74, 137, 32);
+  border-width: 3px;
+}
+
+.elInput:focus {
+    border-color: #42B0E2
+}
+
 .elInputName {
   background-image: url(../images/name2.png);
 }
