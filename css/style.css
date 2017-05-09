@@ -1,0 +1,236 @@
+body {
+   background: url(../images/bg1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  background-color: #fff;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.4;
+}
+
+.wrapper {
+  max-width: 100%;
+}
+
+.optin-container {
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.main-header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: rgb(65, 71, 76);
+    box-shadow: 30px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.529412);
+    color: #fff;
+    font-size: 14px;
+}
+
+.subheading {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.47);
+    text-align: center;
+}
+
+.shadow {
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
+}
+
+.logo-img {
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    aria-disabled="false";
+    text-align: center;
+}
+
+.headline {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.containerInner {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    outline: none;
+    margin-bottom: 20px;
+    outline: none;
+    background-color: rgba(47, 47, 47, 0.792157);
+}
+
+.panel {
+  border-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.panel .panel-default {
+    outline: none;
+    margin-bottom: 0px;
+}
+
+.panel-default {
+  border: none;
+}
+
+.form-group {
+    margin-top: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-input {
+    outline: none !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 15px;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.form-control {
+  padding: 12px 40px 12px 18px;
+  font-size: 18px;
+  height: 60px;
+}
+
+.form-control::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.6); }
+.form-control:-moz-placeholder { color: rgba(0, 0, 0, 0.6); }
+.form-control::-moz-placeholder { color: rgba(0, 0, 0, 0.6); }
+.form-control:-ms-input-placeholder { color: rgba(0, 0, 0, 0.6); }
+
+.elInput {
+  background-repeat: no-repeat;
+  background-position: 97%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.elInputName {
+  background-image: url(../images/name2.png);
+}
+
+.elInputEmail {
+  background-image: url(../images/email2.png);
+}
+
+.elInputPhone {
+  background-image: url(../images/phone2.png);
+}
+
+.button-subtle {
+  color: rgb(255, 255, 255);
+  background-color: rgb(45, 192, 86);
+  padding: 13px 35px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+.button-subtle span {
+  font-size: 10px;
+}
+
+.button-subtle:visited,
+.button-subtle:active,
+.button-subtle:hover {
+  text-decoration: none !important;
+}
+
+.button-subtle:hover {
+  background-color: #239743;
+}
+
+span {
+    display: block;
+    opacity: 0.7;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.89);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    line-height: 1.5em;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.copyright a {
+    color: rgba(255,255,255,0.62);
+}
+
+
+/******* MEDIA QUERIES *******/
+@media only screen and (min-width: 375px) {
+  .button-subtle {
+    font-size: 14px
+  }
+
+  .button-subtle span {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .button-subtle {
+    font-size: 18px;
+  }
+
+  .button-subtle span {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .optin-container {
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .containerInner {
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+
+  .main-header {
+    padding-top: 40px;
+    margin-top: 130px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .button-subtle {
+    font-size: 20px;
+  }
+}
