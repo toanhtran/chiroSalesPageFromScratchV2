@@ -1,5 +1,5 @@
 body {
-   /*background: url(../images/bg1.jpg) no-repeat center center fixed; */
+   background: url(../images/bg1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -20,7 +20,7 @@ body {
   margin-right: 5px;
 }
 /* ******** Video **********
-*/
+
 
 .fullscreen-bg {
   position: fixed;
@@ -65,6 +65,8 @@ body {
     display: none;
   }
 }
+
+*/
 
 /** Main Container **/
 
