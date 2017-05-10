@@ -34,6 +34,13 @@
 </head>
 <body>
   <div class="wrapper">
+   <div class="fullscreen-bg">
+   <video loop muted autoplay poster="img/butterfly_video.mp4" class="fullscreen-bg__video">
+        <source src="images/butterfly_video.mp4" type="video/webm">
+        <source src="images/butterfly_video.mp4" type="video/mp4">
+        <source src="images/butterfly_video.mp4" type="video/ogg">
+    </video>
+    
     <div class="optin-container">
       <div class="main-header shadow">
         <div class="logo-img">
@@ -52,10 +59,10 @@
                             <input class="form-control elInput elInputName" id="name" placeholder="Your Name" type="text" required/>
                         </div>
                         <div class="form-group">
-                            <input class="form-control elInput elInputEmail" id="email" placeholder="Your Email" type="text" required/>
+                            <input class="form-control elInput elInputEmail" id="email" placeholder="Your Email" type="email" required/>
                         </div>
                         <div class="form-group">
-                            <input class="form-control elInput elInputPhone" id="phone" placeholder="Your Phone #" type="text" required/>
+                            <input class="form-control elInput elInputPhone" id="phone" placeholder="Your Phone #" type="tel" pattern="^\d{3}-\d{3}-\d{4}$" title="Phone # format XXX-XXX-XXXX" required/>
                         </div>
 
                         <button type="submit" class="button-subtle">Get Your Free 15 Minute Session Now
@@ -65,14 +72,14 @@
                 </div>
               </div>
           </div>
-
+</div>
 
           <div class="copyright">
               <b>Copyright 2017  - Elysium Wellness </b>
               <br>
               <a href="#">Privacy Policy</a>
           </div>
-    </div>
+    </div><!-- video fullscreen -->
   </div>
 
 
